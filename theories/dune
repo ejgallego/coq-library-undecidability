@@ -1,0 +1,11 @@
+(coq.theory
+ (name Undecidability)
+ (package coq-library-undecidability)
+ (modules :standard \
+   FOL.binFOL
+   FOL.minZF
+   FOL.binZF)
+ (flags
+   -w -notation-overridden))
+
+(include_subdirs qualified)
